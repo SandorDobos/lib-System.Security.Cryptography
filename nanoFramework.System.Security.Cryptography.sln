@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "System.Security.Cryptography", "System.Security.Cryptography\System.Security.Cryptography.nfproj", "{F9133630-6A79-4043-9C01-B896924143C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9133630-6A79-4043-9C01-B896924143C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9133630-6A79-4043-9C01-B896924143C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9133630-6A79-4043-9C01-B896924143C9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F9133630-6A79-4043-9C01-B896924143C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9133630-6A79-4043-9C01-B896924143C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9133630-6A79-4043-9C01-B896924143C9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C7F5A4E-C356-40EA-8269-D1A708A27B1C}
+	EndGlobalSection
+EndGlobal

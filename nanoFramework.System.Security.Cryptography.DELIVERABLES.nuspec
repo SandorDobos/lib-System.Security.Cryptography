@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>nanoFramework.System.Security.Cryptography.DELIVERABLES</id>
+    <version>$version$</version>
+    <title>System.Security.Cryptography.DELIVERABLES</title>
+    <authors>nanoFramework project contributors</authors>
+    <owners>nanoFramework project contributors</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+    </releaseNotes>
+    <developmentDependency>false</developmentDependency>
+    <projectUrl>https://github.com/nanoframework/lib-System.Security.Cryptography</projectUrl>
+    <iconUrl>https://secure.gravatar.com/avatar/97d0e092247f0716db6d4b47b7d1d1ad</iconUrl>
+    <copyright>Copyright (c) .NET Foundation and Contributors</copyright>
+    <description>** DON'T REFERENCE THIS PACKAGE ** Not meant for development. This package includes the deliverable artifacts of the System.Security.Cryptography assembly for nanoFramework. These are for testing purposes and for updating the native code base of the library.</description>
+    <summary>System.Security.Cryptography.DELIVERABLES is not meant for development.</summary>
+    <tags>
+    </tags>
+    <dependencies>
+		<dependency id="nanoFramework.CoreLibrary" version="1.10.1-preview.9" />
+		<dependency id="nanoFramework.Runtime.Events" version="1.8.0" />
+	</dependencies>
+  </metadata>
+  <files>
+    <file src="System.Security.Cryptography\bin\Release\Stubs\*.*" target="content\Stubs\" />
+    <file src="System.Security.Cryptography\obj\Release\*.txt" target="content\txt\" />
+    <file src="System.Security.Cryptography\obj\Release\*.dump" target="content\dump\" />
+    <file src="System.Security.Cryptography\obj\Release\*.strings" target="content\dump\" />
+    <file src="System.Security.Cryptography\obj\Release\*.resources" target="content\resources\" />
+    <file src="System.Security.Cryptography\obj\Release\*.il" target="content\disasm\" />
+  </files>
+</package>

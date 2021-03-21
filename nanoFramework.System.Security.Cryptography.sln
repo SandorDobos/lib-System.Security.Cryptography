@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "System.Security.Cryptography", "System.Security.Cryptography\System.Security.Cryptography.nfproj", "{F9133630-6A79-4043-9C01-B896924143C9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6A59C362-39D1-4B75-8A55-6B973C4C09E9}"
+	ProjectSection(SolutionItems) = preProject
+		nanoFramework.System.Security.Cryptography.DELIVERABLES.nuspec = nanoFramework.System.Security.Cryptography.DELIVERABLES.nuspec
+		nanoFramework.System.Security.Cryptography.nuspec = nanoFramework.System.Security.Cryptography.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

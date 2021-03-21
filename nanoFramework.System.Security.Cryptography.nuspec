@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>nanoFramework.System.Security.Cryptography</id>
+    <version>$version$</version>
+    <title>nanoFramework.System.Security.Cryptography</title>
+    <authors>nanoFramework project contributors</authors>
+    <owners>nanoFramework project contributors</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <releaseNotes>
+    </releaseNotes>
+    <developmentDependency>false</developmentDependency>
+    <projectUrl>https://github.com/nanoframework/lib-System.Security.Cryptography</projectUrl>
+    <iconUrl>https://secure.gravatar.com/avatar/97d0e092247f0716db6d4b47b7d1d1ad</iconUrl>
+    <repository type="git" url="https://github.com/nanoframework/lib-System.Security.Cryptography" commit="$commit$" />
+    <copyright>Copyright (c) .NET Foundation and Contributors</copyright>
+    <description>This package includes the System.Security.Cryptography assembly for nanoFramework C# projects.
+This package requires a target with System.Security.Cryptography v$nativeVersion$ (checksum $checksum$).</description>
+    <summary>System.Security.Cryptography assembly for nanoFramework C# projects</summary>
+    <tags>nanoFramework C# csharp netmf netnf System.Security.Cryptography</tags>
+    <dependencies>
+      <dependency id="nanoFramework.CoreLibrary" version="1.10.1-preview.9" />
+      <dependency id="nanoFramework.Runtime.Events" version="1.8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="System.Security.Cryptography\bin\Release\System.Security.Cryptography.dll" target="lib\System.Security.Cryptography.dll" />
+    <file src="System.Security.Cryptography\bin\Release\System.Security.Cryptography.pdb" target="lib\System.Security.Cryptography.pdb" />
+    <file src="System.Security.Cryptography\bin\Release\System.Security.Cryptography.pdbx" target="lib\System.Security.Cryptography.pdbx" />
+    <file src="System.Security.Cryptography\bin\Release\System.Security.Cryptography.pe" target="lib\System.Security.Cryptography.pe" />
+    <file src="System.Security.Cryptography\bin\Release\System.Security.Cryptography.xml" target="lib\System.Security.Cryptography.xml" />
+    <!-- readme -->
+    <file src="readme.txt" target="readme.txt" />
+  </files>
+</package>

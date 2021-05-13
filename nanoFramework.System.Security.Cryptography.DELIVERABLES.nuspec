@@ -18,9 +18,9 @@
     <tags>
     </tags>
     <dependencies>
-		<dependency id="nanoFramework.CoreLibrary" version="1.10.1-preview.9" />
-		<dependency id="nanoFramework.Runtime.Events" version="1.8.0" />
-	</dependencies>
+      <dependency id="nanoFramework.CoreLibrary" version="1.10.3-preview.20" />
+      <dependency id="nanoFramework.Runtime.Events" version="1.9.0-preview.22" />
+    </dependencies>
   </metadata>
   <files>
     <file src="System.Security.Cryptography\bin\Release\Stubs\*.*" target="content\Stubs\" />
